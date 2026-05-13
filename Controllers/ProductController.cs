@@ -26,5 +26,10 @@ namespace Hands_On_Models.Controllers
             };
             return View(product); // Use product details in a view page
         }
+
+        public IActionResult Welcome()
+        {
+            return View();
+        }
     }
 }
